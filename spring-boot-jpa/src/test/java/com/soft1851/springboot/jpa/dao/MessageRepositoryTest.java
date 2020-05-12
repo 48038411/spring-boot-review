@@ -122,4 +122,12 @@ class MessageRepositoryTest {
         Integer updateNum = messageRepository.updateName("JPQL", 1);
         log.info("修改的数据条数： {}", updateNum);
     }
+
+    /**
+     * 判断id是否存在
+     */
+    @Test
+    public void existId(){
+        System.out.println(messageRepository.existsById(5));
+    }
 }
