@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-start" />
         <module name="spring-boot-config" />
+        <module name="spring-boot-jpa" />
         <module name="spring-boot-application" />
         <module name="spring-boot-review" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="spring-boot-application" target="1.11" />
       <module name="spring-boot-config" target="1.11" />
+      <module name="spring-boot-jpa" target="1.11" />
       <module name="spring-boot-review" target="11" />
       <module name="spring-boot-start" target="1.11" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-application" options="-parameters" />
       <module name="spring-boot-config" options="-parameters" />
+      <module name="spring-boot-jpa" options="-parameters" />
       <module name="spring-boot-review" options="-parameters" />
       <module name="spring-boot-start" options="-parameters" />
     </option>
