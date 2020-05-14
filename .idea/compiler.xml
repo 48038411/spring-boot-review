@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-start" />
-        <module name="spring-boot-config" />
-        <module name="spring-boot-jpa" />
-        <module name="spring-boot-application" />
         <module name="spring-boot-review" />
+        <module name="spring-boot-jpa" />
+        <module name="spring-boot-config" />
+        <module name="spring-boot-application" />
+        <module name="spring-boot-schedule" />
+        <module name="spring-boot-start" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="spring-boot-config" target="1.11" />
       <module name="spring-boot-jpa" target="1.11" />
       <module name="spring-boot-review" target="11" />
+      <module name="spring-boot-schedule" target="1.11" />
       <module name="spring-boot-start" target="1.11" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="spring-boot-config" options="-parameters" />
       <module name="spring-boot-jpa" options="-parameters" />
       <module name="spring-boot-review" options="-parameters" />
+      <module name="spring-boot-schedule" options="-parameters" />
       <module name="spring-boot-start" options="-parameters" />
     </option>
   </component>
