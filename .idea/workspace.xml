@@ -2,60 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cffb7e9-3556-4e06-a229-53f39a2a7d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/config/PrimaryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/config/SecondaryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/Clazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/repository/ClazzRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/repository/TeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/repository/test1/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/repository/test2/UserTest2Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/soft1851/springboot/jpa/repository/ClazzRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/soft1851/springboot/jpa/repository/TeacherRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/soft1851/springboot/jpa/repository/test1/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/SpringBootScheduleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/SpringBootScheduleApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/birthday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/config/ScheduledConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/SendCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/repository/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/service/MailServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/SpringBootJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/SpringBootJpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/config/SwaggerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/dao/MessageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/db/SqlGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/Authority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/People.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/model/cascade/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/service/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/service/impl/MessageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jpa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-jpa/src/test/java/com/soft1851/springboot/jpa/dao/MessageRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,7 +87,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/soft1851/springboot/jpa/db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-schedule" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -138,6 +101,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soft1851.springboot.schedule.repository" />
+      <recent name="com.soft1851.springboot.schedule.service" />
       <recent name="com.soft1851.springboot.jpa.repository.test1" />
       <recent name="com.soft1851.springboot.jpa.repository" />
       <recent name="com.soft1851.springboot.jpa.dao" />
@@ -146,6 +111,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dev\spring-boot-review (2)\spring-boot-review\spring-boot-schedule" />
       <recent name="E:\dev\spring-boot-review (2)\spring-boot-review\spring-boot-jpa\src\main\java\com\soft1851\springboot\jpa\db" />
       <recent name="D:\projects\java\spring-boot-review\spring-boot-start" />
     </key>
@@ -165,81 +131,80 @@
     </treeState>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringBootScheduleApplication">
-    <configuration name="ClazzRepositoryTest.findClazzById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-jpa" />
+    <configuration name="MailServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.jpa.repository.*" />
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.jpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.jpa.repository.ClazzRepositoryTest" />
-      <option name="METHOD_NAME" value="findClazzById" />
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailServiceTest.sendHtmlMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
+      <option name="METHOD_NAME" value="sendHtmlMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClazzRepositoryTest.findStudentByCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-jpa" />
+    <configuration name="MailServiceTest.sendImgMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.jpa.repository.*" />
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.jpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.jpa.repository.ClazzRepositoryTest" />
-      <option name="METHOD_NAME" value="findStudentByCourse" />
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
+      <option name="METHOD_NAME" value="sendImgMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClazzRepositoryTest.testManyToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-jpa" />
+    <configuration name="MailServiceTest.sendSimpleTextMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.jpa.repository.*" />
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.jpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.jpa.repository.ClazzRepositoryTest" />
-      <option name="METHOD_NAME" value="testManyToMany" />
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
+      <option name="METHOD_NAME" value="sendSimpleTextMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-jpa" />
+    <configuration name="UserRepositoryTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.jpa.repository.test1.*" />
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.jpa.repository.test1" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.jpa.repository.test1.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.jpa.repository.test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.jpa.repository.test1" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.jpa.repository.test1.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.repository.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="find" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClazzRepositoryTest.testManyToMany" />
-        <item itemvalue="JUnit.ClazzRepositoryTest.findClazzById" />
-        <item itemvalue="JUnit.UserRepositoryTest.testSelectAll" />
-        <item itemvalue="JUnit.UserRepositoryTest.testSave" />
-        <item itemvalue="JUnit.ClazzRepositoryTest.findStudentByCourse" />
+        <item itemvalue="JUnit.MailServiceTest.sendImgMail" />
+        <item itemvalue="JUnit.UserRepositoryTest.find" />
+        <item itemvalue="JUnit.MailServiceTest" />
+        <item itemvalue="JUnit.MailServiceTest.sendSimpleTextMail" />
+        <item itemvalue="JUnit.MailServiceTest.sendHtmlMail" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +281,7 @@
       <workItem from="1589360697454" duration="12007000" />
       <workItem from="1589412652561" duration="3404000" />
       <workItem from="1589438357956" duration="17161000" />
+      <workItem from="1589518370014" duration="11038000" />
     </task>
     <task id="LOCAL-00001" summary="config与application">
       <created>1589282180952</created>
@@ -367,10 +333,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="400" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1589464275046" />
-    <state x="766" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1589384263671">
+    <state x="766" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1589525809277">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="766" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1589384263671" />
+    <state x="766" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1589525809277" />
     <state x="144" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589290194536">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -379,70 +345,70 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="690" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1589446753946" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589294327113">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589466306319">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1589294327113" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1589466306319" />
     <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1589278289811">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589278289811" />
-    <state width="1237" height="345" key="GridCell.Tab.0.bottom" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.0.center" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.0.left" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1589532350845">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589532350845" />
     <state width="1867" height="122" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.0.right" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.1.bottom" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.1.center" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.1.center" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.1.left" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.1.left" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="345" key="GridCell.Tab.1.right" timestamp="1589465893217">
+    <state width="1237" height="202" key="GridCell.Tab.1.right" timestamp="1589532350846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="345" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589465893217" />
+    <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589532350846" />
     <state width="1867" height="122" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1589278292043">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589278292043" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1589294334803">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1589466324004">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1589294334803" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1589466324004" />
     <state x="437" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589438488025">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="437" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1589438488025" />
-    <state x="395" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589463343224">
+    <state x="395" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589528217192">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="395" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1589463343224" />
+    <state x="395" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1589528217192" />
     <state x="93" y="93" width="1095" height="535" key="dock-window-1" timestamp="1589446486472">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -456,13 +422,13 @@
     </state>
     <state x="417" y="56" width="863" height="573" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1589455987818" />
     <state x="774" y="82" width="1030" height="835" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589276049060" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1589464551415">
+    <state x="297" y="161" key="run.anything.popup" timestamp="1589530961616">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589464551415" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589446450294">
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589530961616" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589519600340">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589446450294" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589519600340" />
   </component>
 </project>
