@@ -27,4 +27,6 @@ public interface CronRepository extends JpaRepository<Cron,Integer> {
     @Transactional(rollbackFor = RuntimeException.class)
     @Query(value = "update cron set cron = ?1 where cron_id = ?2", nativeQuery = true)
     void updateCron(String cron, int id);
+
+    Cron findCronByCron(String cron);
 }

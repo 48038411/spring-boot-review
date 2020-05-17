@@ -20,4 +20,9 @@ class CronRepositoryTest {
         cronRepository.saveAndFlush(cron2);
         System.out.println("修改成功");
     }
+    @Test
+    void find(){
+        Cron cron = cronRepository.findCronByCron("处理完成");
+        System.out.println(cron.getCronName());
+    }
 }

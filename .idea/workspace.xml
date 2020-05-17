@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cffb7e9-3556-4e06-a229-53f39a2a7d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/controller/MyTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/controller/AsyncTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/service/AsyncTaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/SpringBootScheduleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/SpringBootScheduleApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/repository/CronRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/repository/CronRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/AutoTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/java/com/soft1851/springboot/schedule/task/AutoTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/SpringBootScheduleApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/SpringBootScheduleApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/repository/CronRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-schedule/src/test/java/com/soft1851/springboot/schedule/repository/CronRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -109,15 +114,27 @@
         <path>
           <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
-        <path>
-          <item name="Found 11 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="spring-boot-schedule" type="c588b436:RestServiceStructure$ProjectNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootScheduleApplication">
+  <component name="RunManager" selected="JUnit.MailServiceTest.sendSimpleTextMail">
+    <configuration name="CronRepositoryTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.repository.CronRepositoryTest" />
+      <option name="METHOD_NAME" value="find" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CronRepositoryTest.findCronByCronIdEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-schedule" />
       <extension name="coverage">
@@ -134,37 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MailServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-schedule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.schedule.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailServiceTest.sendImgMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-schedule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.springboot.schedule.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
-      <option name="METHOD_NAME" value="sendImgMail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MailServiceTest.sendSimpleTextMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-schedule" />
       <extension name="coverage">
@@ -176,6 +162,22 @@
       <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule.service" />
       <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.service.MailServiceTest" />
       <option name="METHOD_NAME" value="sendSimpleTextMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootScheduleApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.springboot.schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.springboot.schedule" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.springboot.schedule.SpringBootScheduleApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -241,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CronRepositoryTest.findCronByCronIdEquals" />
-        <item itemvalue="JUnit.MailServiceTest.sendImgMail" />
-        <item itemvalue="JUnit.UserRepositoryTest.find" />
-        <item itemvalue="JUnit.MailServiceTest" />
         <item itemvalue="JUnit.MailServiceTest.sendSimpleTextMail" />
+        <item itemvalue="JUnit.CronRepositoryTest.find" />
+        <item itemvalue="JUnit.SpringBootScheduleApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.UserRepositoryTest.find" />
+        <item itemvalue="JUnit.CronRepositoryTest.findCronByCronIdEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +270,9 @@
       <workItem from="1589360697454" duration="12007000" />
       <workItem from="1589412652561" duration="3404000" />
       <workItem from="1589438357956" duration="17161000" />
-      <workItem from="1589518370014" duration="19360000" />
+      <workItem from="1589518370014" duration="19989000" />
+      <workItem from="1589618306835" duration="5862000" />
+      <workItem from="1589683196578" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="config与application">
       <created>1589282180952</created>
@@ -305,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589548779997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="优化">
+      <created>1589556686185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589556686186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +328,8 @@
     <MESSAGE value="spring-boot-jpa第一天学习" />
     <MESSAGE value="发送生日邮件给系统用户中生日的用户" />
     <MESSAGE value="实现了动态修改cron表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了动态修改cron表达式" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="19" key="#Assign_Data_Sources" timestamp="1589439153625">
@@ -348,62 +360,62 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="690" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1589446753946" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589548779458">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589556685707">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1589548779458" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1589556685707" />
     <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1589278289811">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589278289811" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.0.bottom" timestamp="1589684703990">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589684703990" />
     <state width="1867" height="122" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.0.center" timestamp="1589684703990">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589684703990" />
     <state width="1867" height="122" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1589556273966">
+    <state width="1237" height="286" key="GridCell.Tab.0.left" timestamp="1589684703989">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589556273966" />
+    <state width="1237" height="286" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589684703989" />
     <state width="1867" height="122" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.0.right" timestamp="1589684703990">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589684703990" />
     <state width="1867" height="122" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.1.bottom" timestamp="1589684627827">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589684627827" />
     <state width="1867" height="122" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.1.center" timestamp="1589684627827">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589684627827" />
     <state width="1867" height="122" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.1.left" timestamp="1589684627827">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589684627827" />
     <state width="1867" height="122" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
-    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1589556273967">
+    <state width="1237" height="286" key="GridCell.Tab.1.right" timestamp="1589684627827">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589556273967" />
+    <state width="1237" height="286" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589684627827" />
     <state width="1867" height="122" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589277083755" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1589278292043">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589278292043" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1589548785900">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1589556691632">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1589548785900" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1589556691632" />
     <state x="437" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589438488025">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -425,10 +437,10 @@
     </state>
     <state x="417" y="56" width="863" height="573" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1589455987818" />
     <state x="774" y="82" width="1030" height="835" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1589276049060" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1589547130321">
+    <state x="297" y="161" width="672" height="677" key="run.anything.popup" timestamp="1589684603300">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589547130321" />
+    <state x="297" y="161" width="672" height="677" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589684603300" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589519600340">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
